@@ -27,6 +27,7 @@ Development of deep learning models based on convolutional and recurrent neurona
 - *utils.py*: Fichero con algunas utilidades necesaris en otros ficheros
 - *execute,experimentación\*.py*: Ficheros que realizan el proceso de experimentación de los modelos propios
 - *GaoJunLi,ChenChen,OhShuLi.py*: Ficheros que contienen implementación y ejecución de los modelos propuestos por la literatura
+- *S-TSFE-DL* (https://github.com/ari-dasci/S-TSFE-DL) Repositorio externo auxiliar en el que nos hemos apoyado 
 
 __Nota:__ No se han incluido los ficheros de las salidas con los resultados y los logs de las ejecuciones.
 
@@ -37,7 +38,7 @@ La ejecución no será posible a menos de que disponga acceso a los servidores G
 Partiendo de dicha base basta con:
 
 1. Descargar la base de datos cuyo enlace se encuentra en la memoria del proyecto.
-2. En un directorio dejar la carpeta con la base de datos y todos estos ficheros.
+2. En un directorio dejar la carpeta con la base de datos y todos estos ficheros. (La estructura que tiene en este repositorio no es apta para la ejecución)
 3. Ejecutar el siguiente comando en la terminal (previamente haciendo conexión ssh con el servidor GPU) donde salida.txt es el archivo que se creará para ver el progreso de la ejecución y fichero.sh el script con el fichero que se quiere ejecutar.
 
 ```!bash
